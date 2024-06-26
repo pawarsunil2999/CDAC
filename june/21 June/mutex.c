@@ -1,3 +1,5 @@
+//implementation of proccess sync using mutex
+
 #include<stdio.h>
 #include<unistd.h>
 #include<pthread.h>

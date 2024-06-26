@@ -1,3 +1,5 @@
+// COUNT OF LINES PRESENT IN FILES 
+
 #include<stdio.h>
 #include<stdlib.h>
 

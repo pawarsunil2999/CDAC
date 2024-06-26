@@ -1,3 +1,5 @@
+// Write a Program to count the vowels, constant, spaces, tabs, special symbols and number of lines in a file.
+
 #include<stdio.h>
 #include<ctype.h>
 #include<stdlib.h>

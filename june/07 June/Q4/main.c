@@ -1,3 +1,5 @@
+//factorial of number 
+
 #include"declare.h"
 
 int main() {

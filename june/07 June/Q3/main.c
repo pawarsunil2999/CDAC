@@ -1,3 +1,5 @@
+//palindrom number
+
 #include"declare.h"
 
 int main() {

@@ -1,3 +1,5 @@
+//Write a program converte text file into binary files using file handling function.
+
 #include <stdio.h>
 #include <stdlib.h>
 

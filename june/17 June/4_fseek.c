@@ -1,3 +1,5 @@
+//USE OF fseek FUNCTION
+
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>

@@ -1,3 +1,5 @@
+//Write a program read binarfile using file handling function.
+
 #include <stdio.h>
 #include <stdlib.h>
 

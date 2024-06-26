@@ -1,3 +1,5 @@
+//implementation of proccess sync using semaphor
+
 #include<stdio.h>
 #include<unistd.h>
 #include<semaphore.h>

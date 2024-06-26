@@ -1,3 +1,5 @@
+//swapping of two numbers
+
 #include"declare.h"
 
 int main() {

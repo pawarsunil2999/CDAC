@@ -1,3 +1,5 @@
+//Armstrong Number
+
 #include"declare.h"
 
 int main() {

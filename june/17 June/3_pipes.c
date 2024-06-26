@@ -1,3 +1,5 @@
+//creation of pipe to communicate between two processes
+
 #include<stdio.h>
 #include<unistd.h>
 //#include<sys/type.h>

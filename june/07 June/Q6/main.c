@@ -1,3 +1,5 @@
+//Sum of digit 
+
 #include"declare.h"
 
 int main() {

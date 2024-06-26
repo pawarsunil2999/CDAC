@@ -1,3 +1,5 @@
+//odd or even 
+
 #include"declare.h"
 
 int main() {

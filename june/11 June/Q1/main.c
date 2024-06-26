@@ -1,3 +1,9 @@
+// Write a program of menu driven for employee/student
+  //  1.create 2.delete 3.display 4.search using id/roll no 
+	
+	//(use Makefile and create different file for defination ,declaration and Main.)
+
+
 #include"Declare.h"
 
 int main() {
