@@ -1,0 +1,59 @@
+
+rsync [options..] file.txt /path - a fast, versatile, remote (and local) file-copying tool
+
+
+##-v info about opration :
+
+intern9@intern9:~/Documents/delete$ rsync -v sunil.txt /home/intern9/Documents/delete/1/
+sunil.txt
+
+sent 111 bytes  received 35 bytes  292.00 bytes/sec
+total size is 23  speedup is 0.16
+
+##-z compress and send :
+
+intern9@intern9:~/Documents/delete$ rsync -vz sunil.txt /home/intern9/Documents/delete/1/
+sunil.txt
+
+sent 115 bytes  received 35 bytes  300.00 bytes/sec
+total size is 23  speedup is 0.15
+
+
+##-a archive : preserves all permisions username timestamps (command : ls -ltr) :
+ intern9@intern9:~/Documents/delete$ rsync -vza sunil.txt /home/intern9/Documents/delete/1/
+sending incremental file list
+sunil.txt
+
+sent 141 bytes  received 35 bytes  352.00 bytes/sec
+total size is 23  speedup is 0.13
+##
+
+##--progress : shows the status of transfer : 
+intern9@intern9:~/Documents/delete$ rsync -vza --progress sunil.txt /home/intern9/Documents/delete/1/
+sending incremental file list
+sunil.txt
+             23 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 141 bytes  received 35 bytes  352.00 bytes/sec
+total size is 23  speedup is 0.13
+
+##-b backup : creates backup file for transfered file 
+intern9@intern9:~/Documents/delete$ rsync -vzab --progress sunil.txt /home/intern9/Documents/delete/1/
+sending incremental file list
+sunil.txt
+             23 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 141 bytes  received 35 bytes  352.00 bytes/sec
+total size is 23  speedup is 0.13
+
+##--backup-dir = /path : stores backup at desired location :
+intern9@intern9:~/Documents/delete$ rsync -vza --backup-dir=/home/intern9/Documents/delete/1/backup/ --progress sunil.txt /home/intern9/Documents/delete/1/
+sending incremental file list
+
+sent 67 bytes  received 12 bytes  158.00 bytes/sec
+total size is 23  speedup is 0.29
+intern9@intern9:~/Documents/delete$ 
+
+
+
+
