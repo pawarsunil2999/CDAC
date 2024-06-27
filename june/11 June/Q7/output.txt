@@ -1,0 +1,7 @@
+The number of lines present in file : 33
+The number of vowels present in file : 1082
+The number of alpha present in file : 1657
+The number of digit present in file : 12
+The number of spaces present in file : 476
+The number of tabs present in file : 0
+The number of punch present in file : 114

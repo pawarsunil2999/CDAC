@@ -1,4 +1,6 @@
- #include<stdio.h>
+//file reading from a diff location
+
+#include<stdio.h>
 
 int main() {
 	printf("Writing on new lines\n");

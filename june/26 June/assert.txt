@@ -1,0 +1,6 @@
+
+Value : 5
+
+assert: assert.c:9: fun1: Assertion `ptr' failed.
+Aborted (core dumped)
+

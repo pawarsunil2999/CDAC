@@ -17,7 +17,7 @@ void add( emp* arr, int size ) {
 
 
 void display( emp* arr, int size ) {
-	if( size >= 0 ) {
+	if( size > 0 ) {
 		printf("\n\n\tEMPLOYEE CATALOG : ");
 		int i;
 		for( i=0; i<size; i++ ) {

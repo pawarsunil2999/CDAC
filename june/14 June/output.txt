@@ -1,0 +1,4 @@
+Writing on new lines
+CDAC Kharghar.
+
+data written successfull

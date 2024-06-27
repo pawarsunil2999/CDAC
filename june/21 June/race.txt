@@ -1,0 +1,7 @@
+Inside fun : 1 
+local value inc : 2
+Inside fun : 1 
+local value dec : 0
+value updated fin 1: 2
+value updated fin 1: 0
+The shared no : 0

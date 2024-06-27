@@ -7,10 +7,10 @@ int main() {
 	
 	FILE *fp;
 	fp = fopen("data.txt", "r+");
-	char ch[100];
+	char ch[117];
 
 	if( fp ) {
-		fseek(fp, -100, SEEK_END);
+		fseek(fp, 62, SEEK_SET);
 		fread(ch, sizeof(ch), 1, fp);
 		printf("%s", ch);
 		

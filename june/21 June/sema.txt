@@ -1,0 +1,23 @@
+
+inside fun 1 : b4 lock
+inside fun 1 : Locked
+Inside fun 1: 1 
+
+local value inc fun 1 : 2
+
+inside fun 2 : b4 lock
+value updated fun 1: 2
+
+inside fun 1 : b4 unlock
+inside fun 1 : Unlocked
+inside fun 2 : Locked
+Inside fun 2: 2 
+
+local value inc fun 2 : 1
+
+value updated fun 2: 1
+
+inside fun 2 : b4 unlock
+inside fun 2 : Unlocked
+The shared no : 1
+

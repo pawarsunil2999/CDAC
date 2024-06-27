@@ -1,0 +1,4 @@
+Enter the msg to p2: CDAC_Kharghar
+
+Child received msg: CDAC_Kharghar
+

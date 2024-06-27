@@ -8,7 +8,7 @@ int main() {
 	FILE *fp;
 	char str[100] = "sunil pawar \n\n";
 	printf("Enter any string to append : ");
-	//scanf("%s", str);
+	scanf("%s", str);
 	
 	fp = fopen("data.txt", "a+");
 	

@@ -1,0 +1,17 @@
+
+parent process 5222: 1
+parent process 5222: 2
+parent process 5222: 3
+This isnt forked : 1
+Child Process 5548: 1
+Child Process 5548: 2
+Child Process 5548: 3
+Nested parent process 1263: 1
+Nested parent process 1263: 2
+Nested parent process 1263: 3
+This isnt forked : 1Child Process 5548: 3
+intern9@intern9:~/Documents/CDAC/june/17 June$ Nested child Process 5549: 1
+Nested child Process 5549: 2
+Nested child Process 5549: 3
+This isnt forked : 1
+

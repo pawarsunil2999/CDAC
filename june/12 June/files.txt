@@ -1,0 +1,3 @@
+Enter string to write/read : CDAC_Kharghar
+
+reading from file : CDAC_Kharghar
